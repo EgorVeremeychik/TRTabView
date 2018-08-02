@@ -484,8 +484,6 @@ sets the variables from which self.overflows is dynamically calculated.*/
 - (void)setFrame:(CGRect)frame {
 	
 	[super setFrame:frame];
-	
-	[self reloadTabs];
 }
 
 #pragma mark - Properties
