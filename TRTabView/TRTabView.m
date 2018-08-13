@@ -499,8 +499,6 @@ sets the variables from which self.overflows is dynamically calculated.*/
 - (void)setMaximumNumberVisibleTabs:(NSUInteger)maximumNumberVisibleTabs {
 	
 	_maximumNumberVisibleTabs = maximumNumberVisibleTabs;
-	
-	[self reloadTabs];
 }
 
 - (void)setMinimumTabWidth:(CGFloat)minimumTabWidth {
